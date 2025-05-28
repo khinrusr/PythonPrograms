@@ -30,4 +30,5 @@ print(name1,name2,name3)
 
 nonelement=None
 print(nonelement)
-print(type(nonelement))
+print(type(nonelement)) 
+
