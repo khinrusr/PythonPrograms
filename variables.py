@@ -21,3 +21,9 @@ value=True
 value1=False
 print(value,value1)
 print(type(value),type(value1))
+
+name1="rushi"
+name2='rushi'
+name3='''rushi'''
+
+print(name1,name2,name3)
