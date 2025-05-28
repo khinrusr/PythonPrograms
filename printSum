@@ -1,13 +1,36 @@
-a=1
+# sum
+a=5
 b=2
 sum=a+b
 print(sum)
 print(a+b)
 print(1+2)
 
+# diff
 diff=a-b
 print(diff)
+
+"""
+multiplication
+two number
+"""
 mul=a*b
 print(mul)
-divide=b%a
+
+"""
+
+division
+two number
+"""
+divide=a/b
 print(divide)
+
+
+
+# mod
+mod=a%b 
+print(mod)  #remender
+
+# to the power
+power=a**b
+print(power) #to the power of a^b
