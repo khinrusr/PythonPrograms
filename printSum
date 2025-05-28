@@ -4,3 +4,10 @@ sum=a+b
 print(sum)
 print(a+b)
 print(1+2)
+
+diff=a-b
+print(diff)
+mul=a*b
+print(mul)
+divide=b%a
+print(divide)
