@@ -26,3 +26,17 @@ b=5
 c=int(a)
 sum=c+b
 print(sum)
+
+a="2"
+b=5
+c=float(a)
+sum=c+b
+print(sum)
+
+# a="rushi"
+# b=3
+# c=float(a)  #Error
+
+a=25.5
+b=str(a)
+a=str(a)
