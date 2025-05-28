@@ -27,3 +27,6 @@ name2='rushi'
 name3='''rushi'''
 
 print(name1,name2,name3)
+
+nonelement=None
+print(nonelement)
