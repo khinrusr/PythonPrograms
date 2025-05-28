@@ -16,3 +16,8 @@ print(type(age2))
 name=23
 print(name)
 print(type(name))
+
+value=True
+value1=False
+print(value,value1)
+print(type(value),type(value1))
