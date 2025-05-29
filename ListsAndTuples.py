@@ -42,3 +42,12 @@ list.reverse()
 print(list)  #reverse the list
 list.insert(3,564)
 print(list)
+
+
+charlist=["banana","apple","licthi","mango"]
+charlist.sort()
+print(charlist) #sort in accending order
+charlist.sort(reverse=True)
+print(charlist) #soert in decending order 
+charlist.reverse()
+print(charlist)  #reverse the list
