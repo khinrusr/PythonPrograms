@@ -31,23 +31,57 @@ print(marks[-4:-2])
 
 
 #methods of list
-list=[3,5,1,7,4,9]
+list=[3,5,1,7,1,5,8,1,5,2,4,9]
+
+list.reverse()
+print(list)  #reverse the list
 list.append(111)
 print(list) #add element at the end 
 list.sort()
 print(list) #sort in accending order
 list.sort(reverse=True)
 print(list) #soert in decending order 
-list.reverse()
-print(list)  #reverse the list
-list.insert(3,564)
+
+list.insert(3,1)
 print(list)
 
 
 charlist=["banana","apple","licthi","mango"]
+
+charlist.reverse()
+print(charlist)  #reverse the list
 charlist.sort()
 print(charlist) #sort in accending order
 charlist.sort(reverse=True)
-print(charlist) #soert in decending order 
-charlist.reverse()
-print(charlist)  #reverse the list
+print(charlist) #sort in decending order 
+
+
+
+print(list)
+list.remove(1)  #remove element first occurence 
+print(list)
+
+list.pop(4)  #remove element at that index
+print(list)
+
+
+#tuples
+
+tup=(1,2,3,4)
+print(tup)
+print(type(tup))
+
+tup=()
+print(tup)
+print(type(tup))
+
+tup=(1)
+print(tup)
+print(type(tup)) #here it will give the type as int 
+
+
+tup=(1,)
+print(tup)
+print(type(tup))
+
+
