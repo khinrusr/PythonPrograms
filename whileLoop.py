@@ -42,11 +42,38 @@
 #     print(list[i])
 #     i+=1
 
-# search number x in the tuple 
-tup=(1,4,9,16,25,36,49,64,81,100)
-x=int(input("Enter the number : "))
-i=0
-while i<len(tup):
-    if(x==tup[i]):
-        print("index :",i,"number :",tup[i])
+# # search number x in the tuple 
+# tup=(1,4,9,16,25,36,49,64,81,100)
+# x=int(input("Enter the number : "))
+# i=0
+# while i<len(tup):
+#     print("finding")
+#     if(x==tup[i]):
+#         print("index :",i,"number :",tup[i])
+#         break
+#     i+=1
+
+
+# i=1
+# while i<=5:
+#     if(i==3):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+# i=0
+# while i<=10:
+#     if(i%2==0):
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+i=1
+while i<=10:
+    if(i%2 != 0):
+        i+=1
+        continue
+    print(i)
     i+=1
