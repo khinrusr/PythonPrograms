@@ -7,6 +7,9 @@
 
 str="Rushikesh"
 for val in str:
+    if(val=="k"):
+        print("K is found")
+        break
     print(val)
 else:
     print("loop ended")
