@@ -1,4 +1,4 @@
-class Student():
+class Student:
     name="Rushi"
 
 s1=Student()
